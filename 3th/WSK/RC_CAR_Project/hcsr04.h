@@ -14,8 +14,9 @@
 #define ECHO    PB5
 
 double duration;
+uint8_t distance_cm;
 void hcsr04_init(void);
 void trigger_ultrasonic(void);
-double get_distance(void);
+uint8_t get_distance(void);
 
 #endif

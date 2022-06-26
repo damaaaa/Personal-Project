@@ -28,3 +28,10 @@ void trigger_ultrasonic(void)
     _delay_us(10);
     PORTB |= (1 << TRIG);
 }
+
+uint8_t get_distance(void)
+{
+    distance_cm = duration * 0.034 / 2; //음속은 340m/s 이다. duration은 us단위
+
+    return distance_cm;
+}

@@ -1,10 +1,21 @@
 # depslib dependency file v1.0
-1656148884 source:/home/kws/Personal-Project/3th/WSK/RC_CAR_Project/main.c
+1656265078 source:/home/kws/Personal-Project/3th/WSK/RC_CAR_Project/main.c
 	<avr/io.h>
 	"hcsr04.h"
+	"uart.h"
 
-1656148933 /home/kws/Personal-Project/3th/WSK/RC_CAR_Project/hcsr04.h
+1656265126 /home/kws/Personal-Project/3th/WSK/RC_CAR_Project/hcsr04.h
 	<avr/io.h>
 	<avr/interrupt.h>
 	<util/delay.h>
+
+1656265080 /home/kws/Personal-Project/3th/WSK/RC_CAR_Project/uart.h
+	<avr/io.h>
+	<util/delay.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1656265080 source:/home/kws/Personal-Project/3th/WSK/RC_CAR_Project/uart.c
+	"uart.h"
 
